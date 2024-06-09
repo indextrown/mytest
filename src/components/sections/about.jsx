@@ -12,18 +12,17 @@ const About = () => {
                         <SlideUp>
                             <div className="about-image-part">
                                 <img src={profile_img} alt="About Me" />
-                                <h2>김동현</h2>
+                                <h2>Kane Walker</h2>
                                 <div className="about-btn btn-one text-center">
                                     <h6>Available for Work</h6>
                                     <div className="circle pulse color-pulse"></div>
                                 </div>
                                 <div className="about-social text-center">
                                     <ul>
-                                        <li><a href="https://github.com/indextrown"><i><RiGithubLine size={20} /></i></a></li>
-                                        <li><a href=""><i><RiLinkedinFill size={20} /></i></a></li>
                                         <li><a href=""><i><RiFacebookCircleFill size={20} /></i></a></li>
                                         <li><a href=""><i><RiTwitterXLine size={20} /></i></a></li>
-                                        
+                                        <li><a href=""><i><RiLinkedinFill size={20} /></i></a></li>
+                                        <li><a href=""><i><RiGithubLine size={20} /></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -35,23 +34,21 @@ const About = () => {
                         <div className="about-content-part">
                             <SlideUp>
                                 <h2>
-                                    {/* 선한 영향력을 나누고 싶은 <br></br>
-                                    iOS 개발자 <span>김동현</span> 입니다.  */}
-                                    <h1>I'm <span>iOS</span> developer</h1>
+                                    Hello, I’m Kane Walker, <span>Framer Developer</span> and UX / UI Designer
+                                    Based in California.
                                 </h2>
                                 <div className="hero-btns">
-                                    <a href="https://github.com/user-attachments/files/15586459/_._.pdf" className="theme-btn">Download more <i><RiDownloadLine size={16} /></i></a>
+                                    <a href="#" className="theme-btn">Download CV <i><RiDownloadLine size={16} /></i></a>
                                 </div>
                             </SlideUp>
                             <SlideUp>
                                 <ul className="list-style-one two-column">
-                                    <li><i><RiArrowRightUpLine size={18} /></i> Swift Programming</li>
-                                    <li><i><RiArrowRightUpLine size={18} /></i> UIKit</li>
-                                    <li><i><RiArrowRightUpLine size={18} /></i> SwiftUI</li>
-                                    <li><i><RiArrowRightUpLine size={18} /></i> Core Data</li>
-                                    <li><i><RiArrowRightUpLine size={18} /></i> Networking with URLSession</li>
-                                    <li><i><RiArrowRightUpLine size={18} /></i> Push Notifications</li>
-
+                                    <li><i><RiArrowRightUpLine size={18} /></i> Logo Design</li>
+                                    <li><i><RiArrowRightUpLine size={18} /></i> Social Marketing</li>
+                                    <li><i><RiArrowRightUpLine size={18} /></i> Branding Identity</li>
+                                    <li><i><RiArrowRightUpLine size={18} /></i> Digital Marketing</li>
+                                    <li><i><RiArrowRightUpLine size={18} /></i> Web Design</li>
+                                    <li><i><RiArrowRightUpLine size={18} /></i> Product Design</li>
                                 </ul>
                             </SlideUp>
                         </div>

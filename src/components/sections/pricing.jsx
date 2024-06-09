@@ -30,7 +30,7 @@ export default Pricing
 const Card = ({ info, offers, plan_name, price, id }) => {
     return (
         <div className="col-lg-4 col-md-6">
-            {/* <ZoomIn id={id}>
+            <ZoomIn id={id}>
                 <div className="pricing-item ">
                     <div className="pricing-header">
                         <h4 className="title">{plan_name}</h4>
@@ -46,7 +46,7 @@ const Card = ({ info, offers, plan_name, price, id }) => {
                         <a href="#" className="theme-btn">Order Now <i><RiShoppingBasketLine size={16} /></i></a>
                     </div>
                 </div>
-            </ZoomIn> */}
+            </ZoomIn>
         </div>
     )
 }

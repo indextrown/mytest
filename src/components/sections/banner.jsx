@@ -11,15 +11,10 @@ const Banner = () => {
                             {/*  START HERO DESIGN AREA  */}
                             <SlideUp>
                                 <div className="hero-content rmb-25 text-center">
-                                    <h1>
-                                        선한 영향력을 나누고 싶은 <br></br>
-                                        iOS 개발자 <span>김동현</span> 입니다. 
-                                    </h1>
-                                    
-                                    {/* <h1>I'm <span>iOS</span> developer</h1> */}
-                                    {/* <div className="job">
+                                    <h1>I'm <span>Kane</span> Walker</h1>
+                                    <div className="job">
                                         <span>UI Designer</span><span>Webflow Developer</span><span>Marketer</span>
-                                    </div> */}
+                                    </div>
                                 </div>
                             </SlideUp>
                             {/*  / END HERO DESIGN AREA  */}

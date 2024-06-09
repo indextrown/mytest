@@ -15,7 +15,7 @@ const Experience = () => {
                     <div className="col-xl-12 col-lg-12">
                         <Title>
                             <p>Experience</p>
-                            <h2 className="resume"> Professional Resume</h2>
+                            <h2> Professional Resume</h2>
                         </Title>
                     </div>
                 </div>
